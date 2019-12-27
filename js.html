@@ -1,14 +1,22 @@
 <html>
-    <head>  
+    <head>
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous">
+        </script>
+        <script src="./al.js"></script>
     </head>
     <body>
        
         <!-- <form action="" onsubmit="return alrt()"> -->
         <input type="text" onfocus="changecolor(this)" onblur="change(this)" id="a">
-        <input type="text" onfocus="changecolor(this)" onblur="change(this)" id="b"> 
-        
+        <input type="text" id="b">
+        <!-- <input type="text" onfocus="changecolor(this)" onblur="change(this)" id="b">  -->
+        <p></p>
+        <h1></h1>
 
-        <input type="button" onclick="vowel()" value="vowel check">
+        <input type="button" id="bt" value="vowel check">
         <p id="Rev"></p>
         <p id="out"></p>
         <p id="E"></p>
