@@ -1,13 +1,13 @@
 function vowel()
 {
-        var kap = document.getElementById("a").value;
+        var userValue = document.getElementById("a").value.toLowerCase();
+       
         var countA=0;
         var countE=0;
         var countI=0;
         var countO=0;
         var countU=0;
         var str="";
-        var userValue = kap.toLowerCase();
         for(var i=userValue.length-1;i>=0;i--)
         {
             str=str+userValue[i];
@@ -56,7 +56,15 @@ function vowel()
 
         }
 
-
+function changecolor(ele)
+{
+    ele.style.backgroundColor="Blue"
+    
+}
+function change(ele)
+{
+    ele.style.backgroundColor="White"
+}s
 //      var b = document.getElementById("b").value;
 
 //     var namePattern="^[A-Za-z]+$"
